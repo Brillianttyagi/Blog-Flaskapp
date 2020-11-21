@@ -31,5 +31,6 @@ def post():
     if request.method == 'GET': 
         all_posts = BlogPost.query.order_by(BlogPost.date_posted).all()
         return render_template('post.html',posts = all_posts)
+
 if __name__ == "__main__":
     app.run(debug=True)
