@@ -17,7 +17,6 @@
 .blog-content{
     margin: 30px;
     width: 350px;
-    height: 250px;
     display: inline-block;
     background-color: white;
     border-top-left-radius: 20%;
@@ -59,6 +58,7 @@
 .blog-body{
     clear: both;
     float: left;
+    overflow: hidden;
 }
 .blog-body h1{
     font-size: 18px;
@@ -67,5 +67,19 @@
 .read-more{
     clear: both;
     float: right;
-    margin-right: 15px;
+    margin-right: 40px;
+}
+
+footer{
+    box-shadow: 0.1px 0.1px 8px rgb(73, 71, 71);
+    clear: both;
+    background-color: rgb(80, 86, 95);
+    box-sizing: border-box;
+}
+
+.copyright{
+    padding: 20px;
+    text-align: center;
+    color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
